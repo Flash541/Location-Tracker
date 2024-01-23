@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "locator-app",
+    "slug": "locator-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.locatorapp.project",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAySwx8FcHT95PyRtbtEcoUY8MY9KUB1T0"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2ab60969-ed0c-4fff-957e-216aa9b82397"
+      }
+    }
+  }
+}
